@@ -21,18 +21,23 @@ body {
 	background-image:url ;
  //     background: #000000;
  font: 18px/1.4 arial;
+ colour: #ffffff;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  margin: 2 auto;
+  max-width: 670px;
+  padding: 1 10px;
   width: 100%;
+        background:rgba(0,0,153,0.8);
+                 border radius: 30px;
+        padding: 25px;
+                border bottom: 1px solid white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkergreen;
+  font-family: $helveticaNeue ;
+  color: #ffffff;
   font-weight: bold;
 
   line-height: 1.7;
